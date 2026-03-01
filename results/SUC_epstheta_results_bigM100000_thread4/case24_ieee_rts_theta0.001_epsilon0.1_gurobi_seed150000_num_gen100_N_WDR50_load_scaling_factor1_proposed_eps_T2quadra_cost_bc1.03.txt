@@ -1,0 +1,132 @@
+
+Gurobi 11.0.3 (linux64) logging started Mon Aug 25 16:45:29 2025
+
+Set parameter LogFile to value "/home/yihong/Coding/OR_SUC/SUC_epstheta_results_bigM100000_thread4/case24_ieee_rts_theta0.001_epsilon0.1_gurobi_seed150000_num_gen100_N_WDR50_load_scaling_factor1_proposed_eps_T2quadra_cost_bc1.03.txt"
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD EPYC 7532 32-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 64 physical cores, 128 logical processors, using up to 4 threads
+
+Academic license 2399124 - for non-commercial use only - registered to yi___@ed.ac.uk
+Optimize a model with 4290 rows, 2531 columns and 107910 nonzeros
+Model fingerprint: 0xd54e131c
+Model has 200 quadratic constraints
+Variable types: 2331 continuous, 200 integer (200 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+03]
+  QMatrix range    [2e-03, 8e-03]
+  QLMatrix range   [1e-01, 6e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [5e-02, 9e+03]
+Presolve removed 3707 rows and 1273 columns
+Presolve time: 0.02s
+Presolved: 583 rows, 1258 columns, 4474 nonzeros
+Presolved model has 200 quadratic constraint(s)
+Variable types: 1058 continuous, 200 integer (200 binary)
+
+Root relaxation: objective 1.894890e+03, 419 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1894.89047    0    4          - 1894.89047      -     -    0s
+     0     0 15903.3077    0   72          - 15903.3077      -     -    0s
+     0     0 48214.8742    0   32          - 48214.8742      -     -    0s
+     0     0 48217.5864    0   32          - 48217.5864      -     -    0s
+     0     0 48240.1558    0    8          - 48240.1558      -     -    0s
+     0     0 48240.3256    0    6          - 48240.3256      -     -    0s
+     0     0 48240.3256    0    6          - 48240.3256      -     -    0s
+     0     0 48240.3256    0    6          - 48240.3256      -     -    0s
+H    0     0                    48253.346967 48240.3256  0.03%     -    0s
+
+Cutting planes:
+  Gomory: 12
+  Implied bound: 50
+  MIR: 18
+  Flow cover: 77
+  RLT: 1
+
+Explored 1 nodes (1377 simplex iterations) in 0.22 seconds (0.10 work units)
+Thread count was 4 (of 128 available processors)
+
+Solution count 1: 48253.3 
+
+Optimal solution found (tolerance 1.00e-03)
+Warning: max constraint violation (2.0742e-09) exceeds tolerance
+Best objective 4.825334696721e+04, best bound 4.824032556769e+04, gap 0.0270%
+
+Gurobi 11.0.3 (linux64) logging started Mon Aug 25 16:45:29 2025
+
+Set parameter LogFile to value "/home/yihong/Coding/OR_SUC/SUC_epstheta_results_bigM100000_thread4/case24_ieee_rts_theta0.001_epsilon0.1_gurobi_seed150000_num_gen100_N_WDR50_load_scaling_factor1_proposed_eps_T2quadra_cost_bc1.03.txt"
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD EPYC 7532 32-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 64 physical cores, 128 logical processors, using up to 4 threads
+
+Academic license 2399124 - for non-commercial use only - registered to yi___@ed.ac.uk
+Optimize a model with 4290 rows, 2532 columns and 108479 nonzeros
+Model fingerprint: 0x5c4d453a
+Model has 201 quadratic constraints
+Variable types: 2332 continuous, 200 integer (200 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+03]
+  QMatrix range    [2e-03, 5e+01]
+  QLMatrix range   [1e-01, 6e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e-01, 1e+00]
+  RHS range        [1e+00, 5e+04]
+  QRHS range       [5e-02, 5e-02]
+Presolve removed 3489 rows and 1164 columns
+Presolve time: 0.03s
+Presolved: 1003 rows, 1568 columns, 6386 nonzeros
+Presolved model has 200 quadratic constraint(s)
+Presolved model has 1 bilinear constraint(s)
+
+Solving non-convex MIQCP
+
+Variable types: 1364 continuous, 204 integer (204 binary)
+
+Root relaxation: objective 1.413559e-05, 1383 iterations, 0.02 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00001    0    6          -    0.00001      -     -    0s
+     0     0    0.00001    0    3          -    0.00001      -     -    0s
+     0     0    0.00001    0    1          -    0.00001      -     -    0s
+H    0     0                       0.0003241    0.00001  95.6%     -    0s
+     0     0    0.00001    0    3    0.00032    0.00001  95.6%     -    0s
+H    0     0                       0.0001685    0.00001  91.5%     -    0s
+     0     0    0.00015    0    3    0.00017    0.00015  11.8%     -    0s
+     0     0    0.00015    0    5    0.00017    0.00015  11.3%     -    0s
+     0     0    0.00015    0    3    0.00017    0.00015  11.2%     -    0s
+     0     0    0.00015    0    3    0.00017    0.00015  11.2%     -    0s
+     0     0    0.00015    0    3    0.00017    0.00015  11.2%     -    0s
+     0     0    0.00015    0    3    0.00017    0.00015  11.2%     -    0s
+     0     0    0.00015    0    3    0.00017    0.00015  11.2%     -    0s
+H    0     0                       0.0001525    0.00015  1.89%     -    0s
+     0     2    0.00015    0    3    0.00015    0.00015  0.68%     -    0s
+H   17     2                       0.0001519    0.00015  0.13%   5.6    0s
+*   17     2               8       0.0001519    0.00015  0.13%   8.9    0s
+H   23     0                       0.0001518    0.00015  0.00%   6.7    0s
+*   23     0              12       0.0001518    0.00015  0.00%   6.7    0s
+
+Cutting planes:
+  Implied bound: 5
+  MIR: 3
+  Flow cover: 2
+  RLT: 2
+  Relax-and-lift: 1
+
+Explored 26 nodes (2368 simplex iterations) in 0.63 seconds (0.46 work units)
+Thread count was 4 (of 128 available processors)
+
+Solution count 6: 0.000151752 0.000151752 0.000151949 ... 0.000324059
+
+Optimal solution found (tolerance 1.00e-03)
+Warning: max constraint violation (2.2729e-03) exceeds tolerance
+         (model may be infeasible or unbounded - try turning presolve off)
+Best objective 1.517524992002e-04, best bound 1.517524992002e-04, gap 0.0000%

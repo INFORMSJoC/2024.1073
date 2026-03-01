@@ -1,0 +1,52 @@
+
+Gurobi 11.0.3 (linux64) logging started Sun Aug 24 14:32:44 2025
+
+Set parameter LogFile to value "/home/yihong/Coding/OR_SUC/SUC_ALSO_results_bigM100000_thread4/case24_ieee_rts_theta0.1_epsilon0.4_gurobi_seed180000_num_gen10_N_WDR50_load_scaling_factor2_proposed_T2quadra_cost.txt"
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD EPYC 7532 32-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 64 physical cores, 128 logical processors, using up to 4 threads
+
+Academic license 2399124 - for non-commercial use only - registered to yi___@ed.ac.uk
+Optimize a model with 3670 rows, 371 columns and 70174 nonzeros
+Model fingerprint: 0xc6131353
+Model has 20 quadratic constraints
+Variable types: 351 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [4e-04, 5e+04]
+  QMatrix range    [3e-03, 8e-03]
+  QLMatrix range   [1e+00, 3e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e-01, 1e+04]
+Presolve removed 2136 rows and 176 columns
+Presolve time: 0.03s
+Presolved: 1534 rows, 195 columns, 28476 nonzeros
+Presolved model has 20 quadratic constraint(s)
+Variable types: 175 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 2.417162e+03, 77 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2417.16153    0    2          - 2417.16153      -     -    0s
+H    0     0                    80907.173014 2417.16153  97.0%     -    0s
+     0     0 2882.97445    0    2 80907.1730 2882.97445  96.4%     -    0s
+     0     0 40943.0199    0    4 80907.1730 40943.0199  49.4%     -    0s
+     0     0 58467.8159    0    2 80907.1730 58467.8159  27.7%     -    0s
+H    0     0                    58556.862314 58474.9339  0.14%     -    0s
+
+Cutting planes:
+  Implied bound: 4
+  Flow cover: 2
+  Relax-and-lift: 1
+
+Explored 1 nodes (247 simplex iterations) in 0.23 seconds (0.23 work units)
+Thread count was 4 (of 128 available processors)
+
+Solution count 2: 58556.9 80907.2 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 5.855686231358e+04, best bound 5.850389249840e+04, gap 0.0905%

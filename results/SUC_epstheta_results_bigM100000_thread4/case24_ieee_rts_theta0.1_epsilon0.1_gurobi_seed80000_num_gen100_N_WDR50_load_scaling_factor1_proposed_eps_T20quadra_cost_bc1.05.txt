@@ -1,0 +1,70 @@
+
+Gurobi 11.0.3 (linux64) logging started Mon Aug 25 14:51:27 2025
+
+Set parameter LogFile to value "/home/yihong/Coding/OR_SUC/SUC_epstheta_results_bigM100000_thread4/case24_ieee_rts_theta0.1_epsilon0.1_gurobi_seed80000_num_gen100_N_WDR50_load_scaling_factor1_proposed_eps_T20quadra_cost_bc1.05.txt"
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD EPYC 7532 32-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 64 physical cores, 128 logical processors, using up to 4 threads
+
+Academic license 2399124 - for non-commercial use only - registered to yi___@ed.ac.uk
+Optimize a model with 47832 rows, 24851 columns and 1096182 nonzeros
+Model fingerprint: 0xd92b785f
+Model has 2000 quadratic constraints
+Variable types: 22851 continuous, 2000 integer (2000 binary)
+Coefficient statistics:
+  Matrix range     [3e-04, 2e+03]
+  QMatrix range    [2e-03, 8e-03]
+  QLMatrix range   [6e-02, 6e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 9e+03]
+Presolve removed 39063 rows and 10560 columns
+Presolve time: 0.39s
+Presolved: 8769 rows, 14291 columns, 48268 nonzeros
+Presolved model has 2000 quadratic constraint(s)
+Variable types: 12291 continuous, 2000 integer (2000 binary)
+
+Root relaxation: objective 2.448814e+04, 7058 iterations, 0.23 seconds (0.27 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 24488.1371    0    -          - 24488.1371      -     -    0s
+     0     0 252198.360    0  770          - 252198.360      -     -    1s
+     0     0 464550.515    0  741          - 464550.515      -     -    1s
+     0     0 464582.323    0  331          - 464582.323      -     -    1s
+     0     0 464792.290    0  164          - 464792.290      -     -    1s
+     0     0 464794.033    0  164          - 464794.033      -     -    1s
+     0     0 464794.033    0  164          - 464794.033      -     -    2s
+     0     0 464794.437    0  164          - 464794.437      -     -    2s
+     0     2 464794.759    0  164          - 464794.759      -     -    3s
+   191   357 464909.099   32  137          - 464798.624      -  13.9    5s
+H  781  1080                    465727.35167 464799.407  0.20%  16.7    8s
+*  781  1080             140    465727.35167 464799.407  0.20%  16.7    8s
+  1173  1555 464965.909   51  173 465727.352 464800.641  0.20%  16.5   10s
+  1942  1632 465250.841   59  139 465727.352 464801.241  0.20%  14.4   15s
+  1952  1639 464949.004   72  138 465727.352 464801.241  0.20%  14.3   21s
+  2774  2216 464910.112   74    9 465727.352 464805.597  0.20%  22.0   25s
+  5374  4097 464851.183   21   90 465727.352 464813.228  0.20%  19.3   30s
+  6951  4894 464850.489   52   59 465727.352 464814.685  0.20%  18.4   35s
+  8814  6838 464860.832   77    - 465727.352 464816.312  0.20%  17.4   40s
+ 10620  8620 464834.300   44   61 465727.352 464817.108  0.20%  17.1   46s
+ 12820 10488 464845.717   51   60 465727.352 464817.783  0.20%  16.7   52s
+ 14688 11892 464994.426   77    - 465727.352 464818.699  0.20%  16.7   55s
+ 15329 12133 464852.622   60   20 465727.352 464818.924  0.20%  16.7   63s
+ 15733 12896          -   73      465727.352 464818.949  0.20%  16.7   65s
+ 16662 13663 464879.697   67    - 465727.352 464819.409  0.19%  16.7   70s
+ 18499 15347 464863.561   48   56 465727.352 464819.888  0.19%  16.8   76s
+ 20945 17147          -   63      465727.352 464820.431  0.19%  17.0   80s
+ 22535 18968 464866.683   43   69 465727.352 464821.110  0.19%  17.2   85s
+ 24430 19890          -   64      465727.352 464821.522  0.19%  17.5   90s
+ 25085 20536          -   66      465727.352 464821.547  0.19%  17.6   95s
+ 26521 21801          -   64      465727.352 464821.922  0.19%  17.8  100s
+ 27623 23296          -   69      465727.352 464822.051  0.19%  18.0  105s
+ 28748 23624          -   56      465727.352 464822.111  0.19%  18.3  110s
+ 29728 25027 464865.589   33   47 465727.352 464822.327  0.19%  18.5  115s
+ 31175 25618          -   48      465727.352 464822.621  0.19%  19.2  120s
+ 32461 27019          -   96      465727.352 464822.854  0.19%  19.6  125s
+ 33915 27719          -   50      465727.352 464822.951  0.19%  20.3  130s
