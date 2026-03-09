@@ -1,0 +1,53 @@
+
+Gurobi 11.0.3 (linux64) logging started Sun Aug 24 14:33:06 2025
+
+Set parameter LogFile to value "/home/yihong/Coding/OR_SUC/SUC_ALSO_results_bigM100000_thread4/case24_ieee_rts_theta0.1_epsilon0.4_gurobi_seed210000_num_gen10_N_WDR50_load_scaling_factor2_ori_T2quadra_cost.txt"
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (linux64 - "Ubuntu 20.04.6 LTS")
+
+CPU model: AMD EPYC 7532 32-Core Processor, instruction set [SSE2|AVX|AVX2]
+Thread count: 64 physical cores, 128 logical processors, using up to 4 threads
+
+Academic license 2399124 - for non-commercial use only - registered to yi___@ed.ac.uk
+Optimize a model with 8078 rows, 371 columns and 166142 nonzeros
+Model fingerprint: 0x10ac516c
+Model has 20 quadratic constraints
+Variable types: 351 continuous, 20 integer (20 binary)
+Coefficient statistics:
+  Matrix range     [4e-04, 4e+04]
+  QMatrix range    [3e-03, 8e-03]
+  QLMatrix range   [1e+00, 5e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [2e-02, 1e+04]
+Presolve removed 2023 rows and 182 columns
+Presolve time: 0.10s
+Presolved: 6055 rows, 189 columns, 124457 nonzeros
+Presolved model has 20 quadratic constraint(s)
+Variable types: 169 continuous, 20 integer (20 binary)
+
+Root relaxation: objective 3.804322e+03, 68 iterations, 0.03 seconds (0.05 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3804.32163    0    4          - 3804.32163      -     -    0s
+H    0     0                    153340.27426 3804.32163  97.5%     -    0s
+     0     0 106802.488    0    4 153340.274 106802.488  30.3%     -    0s
+H    0     0                    143287.07889 108442.264  24.3%     -    1s
+H    0     0                    141779.43682 117990.423  16.8%     -    1s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 1
+  Implied bound: 2
+  MIR: 6
+  Flow cover: 16
+
+Explored 1 nodes (151 simplex iterations) in 1.41 seconds (1.04 work units)
+Thread count was 4 (of 128 available processors)
+
+Solution count 3: 141779 143287 153340 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 1.417794368184e+05, best bound 1.417794368184e+05, gap 0.0000%
