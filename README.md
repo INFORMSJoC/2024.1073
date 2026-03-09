@@ -1,8 +1,34 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# Strengthened and Faster Linear Approximation
+# Strengthened and Faster Linear Approximation to Joint Chance Constraints with Wasserstein Ambiguity
 
-This repository contains code for the paper "Strengthened and Faster Linear Approximation to Joint Chance Constraints with Wasserstein Ambiguity". 
+This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE.md).
+
+The software and data in this repository are a snapshot of the software and data
+that were used in the research reported on in the paper
+[Strengthened and Faster Linear Approximation to Joint Chance Constraints with Wasserstein Ambiguity](https://doi.org/10.1287/ijoc.2024.1073) by
+Yihong Zhou, Yuxin Xia, Hanbin Yang, and Thomas Morstyn.
+
+## Cite
+
+To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
+
+Paper DOI: https://doi.org/10.1287/ijoc.2024.1073
+
+Code DOI: https://doi.org/10.1287/ijoc.2024.1073.cd
+
+Below is the BibTex for citing this version of the repository.
+
+```bibtex
+@misc{Zhou2024,
+  author =     {Yihong Zhou, Yuxin Xia, Hanbin Yang, Thomas Morstyn},
+  publisher =  {INFORMS Journal on Computing},
+  title =      {Strengthened and Faster Linear Approximation to Joint Chance Constraints with Wasserstein Ambiguity},
+  year =       {2026},
+  doi =        {10.1287/ijoc.2024.1073.cd},
+  note =       {Available for download at https://github.com/INFORMSJoC/2024.1073},
+}
+```
 
 ## Main Contributions
 
@@ -245,32 +271,6 @@ The notebook processes the experiment output files stored in:
 
 ---
 For further figures and more detailed analyses, please refer to the paper or explore the full set of visualizations in the corresponding `.ipynb` notebook.
-
-
-
-## Cite
-
-To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
-
-Paper DOI: https://doi.org/10.1287/ijoc.2024.1073
-
-Code DOI: https://doi.org/10.1287/ijoc.2024.1073.cd
-
-Below is the BibTex for citing this version of the repository.
-
-```bibtex
-@misc{Zhou2024,
-  author =     {Yihong Zhou, Yuxin Xia, Hanbin Yang, Thomas Morstyn},
-  publisher =  {INFORMS Journal on Computing},
-  title =      {Strengthened and Faster Linear Approximation to Joint Chance Constraints with Wasserstein Ambiguity},
-  year =       {2024},
-  doi =        {10.1287/ijoc.2024.1073.cd},
-  note =       {Available for download at https://github.com/INFORMSJoC/2024.1073},
-}
-```
-
-
-
 
 ## Ongoing Development
 You may check the [author's Github site](https://github.com/yihong-zhou) for more open-source codes on projects extended from this work.
