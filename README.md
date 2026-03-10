@@ -21,7 +21,7 @@ Below is the BibTex for citing this version of the repository.
 
 ```bibtex
 @misc{Zhou2024,
-  author =     {Yihong Zhou, Yuxin Xia, Hanbin Yang, Thomas Morstyn},
+  author =      {Zhou, Yihong and Xia, Yuxin and Yang, Hanbin and Morstyn, Thomas},
   publisher =  {INFORMS Journal on Computing},
   title =      {Strengthened and Faster Linear Approximation to Joint Chance Constraints with Wasserstein Ambiguity},
   year =       {2026},
